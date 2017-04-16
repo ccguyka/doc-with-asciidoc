@@ -27,7 +27,7 @@
 		<javaCodeDirectoy>${project.basedir}</javaCodeDirectoy>
 		<asciidoctorj.version>1.5.5</asciidoctorj.version>
 		<asciidoctorj.diagram.version>1.5.4</asciidoctorj.diagram.version>
-		<jruby.version>1.7.26</jruby.version>
+		<jruby.version>9.1.8.0</jruby.version>
 	</properties>
 
 	<parent>
