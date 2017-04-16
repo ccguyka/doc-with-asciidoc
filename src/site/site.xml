@@ -1,0 +1,28 @@
+<project name="doc-with-asciidoc">
+	<bannerLeft>
+		<name>${project.name}</name>
+	</bannerLeft>
+	<bannerRight>
+		<src></src>
+	</bannerRight>
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>1.5</version>
+	</skin>
+	<custom>
+		<fluidoSkin>
+			<topBarEnabled>true</topBarEnabled>
+			<sideBarEnabled>true</sideBarEnabled>
+			<breadcrumbDivider>»</breadcrumbDivider>
+		</fluidoSkin>
+	</custom>
+	<body>
+		<menu ref="reports" inherit="top" />
+		<menu ref="modules" />
+		<menu name="Asciidoctor Example">
+			<item href="helloworld.html" name="Hello World" />
+			<!-- <item href="article.html" name="Article" /> -->
+		</menu>
+	</body>
+</project>

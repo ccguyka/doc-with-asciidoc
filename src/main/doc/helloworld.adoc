@@ -1,0 +1,32 @@
+:source-highlighter: highlightjs
+
+# Doc with asciidoc
+
+## spring rest doc
+
+### Request
+include::{snippets}/index/curl-request.adoc[]
+
+### Response
+include::{snippets}/index/http-response.adoc[]
+
+## Source code
+
+[source,java]
+.HelloWorldIT.java
+----
+include::{srcDir}/src/test/java/org/ccguyka/HelloWorldIT.java[tags=HelloWorldIT]
+----
+
+## PlantUML
+
+### Inline
+[plantuml,auth-protocol]
+....
+John -> Jane: Hello World Request
+Jane --> John: Hello World Response
+....
+
+### Loaded from file
+[plantuml,auth-protocol-file]
+include::puml/auth-protocol.puml[]
